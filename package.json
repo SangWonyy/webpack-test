@@ -19,6 +19,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "core-js": "^3.36.0",
     "lodash": "^4.17.21"
   }
 }
