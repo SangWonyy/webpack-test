@@ -5,30 +5,22 @@
 /***/ (() => {
 
 function component() {
-    const divElement = document.createElement("div");
-
-    divElement.innerHTML = "Home";
-
-    return divElement;
+  var divElement = document.createElement("div");
+  divElement.innerHTML = "Home";
+  return divElement;
 }
-
 document.body.appendChild(component());
-
 
 /***/ }),
 /* 2 */
 /***/ (() => {
 
 function component() {
-    const divElement = document.createElement("div");
-
-    divElement.innerHTML = "Detail";
-
-    return divElement;
+  var divElement = document.createElement("div");
+  divElement.innerHTML = "Detail";
+  return divElement;
 }
-
 document.body.appendChild(component());
-
 
 /***/ })
 /******/ 	]);
@@ -110,14 +102,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _detail__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_detail__WEBPACK_IMPORTED_MODULE_1__);
 
 
-
 function initApp() {
-    _home__WEBPACK_IMPORTED_MODULE_0___default().init();
-    _detail__WEBPACK_IMPORTED_MODULE_1___default().init();
+  _home__WEBPACK_IMPORTED_MODULE_0___default().init();
+  _detail__WEBPACK_IMPORTED_MODULE_1___default().init();
 }
-
 initApp();
-
 })();
 
 /******/ })()
