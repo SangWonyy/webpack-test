@@ -1,0 +1,1 @@
+const t=async()=>{const t=true;let e="what";if(t){e="invalid";return false}e="valid";return true};export default t;
