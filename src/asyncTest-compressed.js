@@ -1,0 +1,1 @@
+export default async()=>{let returnText="what";return returnText="invalid",!1};
